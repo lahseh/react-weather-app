@@ -31,25 +31,33 @@
 }
 
 .Weather svg {
-  display: inline-block;
-  margin-top: 5px;
-  margin-right: 100px;
+  display: inline;
+  margin: 10px auto;
 }
 
 .Weather .temperature {
   font-weight: bold;
+  font-size: 64px;
   color: rgb(33, 33, 33);
-  font-size: 80px;
   line-height: 64px;
-  font-weight: 400;
+  margin-top: 10px;
 }
 
 .Weather .unit {
   color: rgb(33, 33, 33);
-  font-size: 25px;
-  font-weight: 400;
+  display: inline;
+  font-weight: bold;
   position: relative;
-  line-height: 1;
-  top: -32px;
+  top: -34px;
   margin-left: 60px;
+}
+
+.degrees {
+  position: relative;
+  bottom: 18px;
+  text-decoration: none;
+}
+
+.degrees:hover {
+  text-decoration: underline;
 }
